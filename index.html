@@ -14,7 +14,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-dark pt-2 pb-2 ps-4 sticky-top">
+    <!-- <nav class="navbar navbar-expand-lg bg-dark pt-2 pb-2 ps-4 sticky-top">
         <div class="container-fluid">
 
             <div class="collapse navbar-collapse">
@@ -22,10 +22,10 @@
                 <a class="nav-link text-white pe-5" aria-current="page" href="#">Home</a>
                 <a class="nav-link text-white pe-5" href="#brand">BRAND</a>
                 <a class="nav-link text-white pe-5" href="#tour">TOUR</a>
-                <a class="nav-link text-white pe-5" href="#contact">CONTACT</a>
+                <a class="nav-link text-white pe-5" href="#contact">CONTACT</a> -->
 
                 <!-- todo (NEED TO ADD A DROPDOWN) -->
-                </div>
+                <!-- </div>
             </div>
 
             <div class="collapse navbar-collapse">
@@ -34,7 +34,61 @@
                 </div>
             </div>
         </div>
+    </nav> -->
+
+
+    <!-- ! NEW NAVIGATION -->
+
+    <nav class="navbar navbar-expand-md bg-black pt-3 pb-3 ps-3 sticky-top">
+        <div class="container-fluid">
+
+            <div class="navbar-nav">
+                <a href="#" class="nav-link pe-5 active text-white">HOME</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- <a class="nav-link text-white pe-5 active" aria-current="page" href="#">HOME</a> -->
+                    <a class="nav-link text-white pe-5 " aria-current="page" href="#band">BAND</a>
+                    <a class="nav-link text-white pe-5" aria-current="page" href="#tour">TOUR</a>
+                    <a class="nav-link text-white pe-5" aria-current="page" href="#contact">CONTACT</a>
+
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            MORE
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item p-2">Merchandise</a>
+                            <a href="#" class="dropdown-item p-2">Extras</a>
+                            <a href="#" class="dropdown-item p-2">Media</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="d-flex pe-5">
+                    <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+
     </nav>
+
+
+
+
+
 
 
     <!--* Main -->
@@ -57,7 +111,7 @@
         </div>
     </div>
 
-    <div class="section-pad text-center pt-5" id="brand">
+    <div class="section-pad text-center pt-5" id="band">
         <h1  class="fw-normal fs-1">THE BAND</h1>
 
         <p class="opacity-75 pt-2 pb-2">

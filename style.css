@@ -1,6 +1,19 @@
-.nav-search {
-  margin-left: 95%;
+/* changing dropdown color on hover */
+.dropdown:hover {
+  background-color: darkgray;
+  /* color: red; */
 }
+
+/* making the dropdown items view when hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* changing the dropdown link color on hover */
+.dropdown-menu .dropdown-item:hover {
+  background-color: darkgray;
+}
+
 
 .section-pad {
   padding-left: 24%;
