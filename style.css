@@ -13,8 +13,14 @@
   background-color: darkgray;
 }
 
+
+
 .word-space {
   word-spacing: -2px
+}
+
+.card-img-size {
+  max-width: 150px;
 }
 
 
@@ -42,6 +48,10 @@
     margin-left: 75%;
 }
 
+.contact-img {
+  width: 100%;
+}
+
 .contact-btn {
   margin-left: 210px;
 }
@@ -49,6 +59,10 @@
 
 
 @media screen and (max-width: 768px) {
+  nav {
+    position: sticky;
+  }
+
   .fa-magnifying-glass {
     display: none;
   }
@@ -72,7 +86,10 @@
     min-width: 100%;
   }
   .contact-btn {
-    /* margin-left: auto; */
     float: right;
   }
+}
+
+@media screen {
+
 }
